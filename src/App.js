@@ -2,14 +2,15 @@ import React from 'react';
 
 const divStyle = {
   color: 'blue',
-  textAlign: 'center'
+  textAlign: 'center',
+  marginTop: '4rem'
 }
 const App = () => {
   return(
     <div style = {divStyle}>
       <p>hola quetal</p>
       <p>webPack</p>
-      <button onClick={()=>console.log('click')}>click</button>
+      <button style={{marginTop:'4rem', backgroundColor:'aqua', color: 'red', borderRadius:'0.35rem'}} onClick={()=>console.log('click')}>click</button>
     </div>
   )
 }
